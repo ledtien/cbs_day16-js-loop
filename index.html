@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+      integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn"
+      crossorigin="anonymous"
+    />
+    <title>Loop</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="alert alert-danger" role="alert">
+        <h3>Bài 1: Tìm số nguyên dương nhỏ nhất sao cho:</h3>
+        <p class="font-weight-bold">1 + 2 + 3 + ... + n > 10000</p>
+        <button id="bai1Btn" class="btn btn-success">Đáp án</button>
+        <div id="bai1Txt"></div>
+      </div>
+      <!-- =================== -->
+      <div class="alert alert-primary" role="alert">
+        <h4 class="alert-heading">
+          Tính tổng S(n) = x + x^2 + x^3 + ... + x^n
+        </h4>
+        <hr />
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">X</span>
+          </div>
+          <input
+            id="numberX"
+            type="number"
+            class="form-control"
+            placeholder="X"
+            aria-label="X"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">N</span>
+          </div>
+          <input
+            id="numberN"
+            type="number"
+            class="form-control"
+            placeholder="N"
+            aria-label="N"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <button id="bai2Btn" class="btn btn-success">Đáp án</button>
+        <div id="bai2Txt"></div>
+      </div>
+      <!-- =================== -->
+      <div class="alert alert-primary" role="alert">
+        <h4 class="alert-heading">Giai thừa 1*2*...n</h4>
+        <hr />
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">N</span>
+          </div>
+          <input
+            id="bai3N"
+            type="number"
+            class="form-control"
+            placeholder="N"
+            aria-label="N"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <button id="bai3Btn" class="btn btn-success">Đáp án</button>
+        <div id="bai3Txt"></div>
+      </div>
+      <!-- =================== -->
+      <div class="alert alert-light border rounded" role="alert">
+        <h4 class="alert-heading">Click vào button!!!</h4>
+        <button id="bai4Btn" class="btn btn-secondary">Click</button>
+        <div id="bai4Txt"></div>
+      </div>
+      <!-- =================== -->
+      <div class="alert alert-secondary" role="alert">
+        <h4 class="alert-heading">In ra số nguyên tố từ 1, 2, 3, ...n</h4>
+        <hr />
+        <div class="input-group mb-3">
+          <div class="input-group-prepend">
+            <span class="input-group-text" id="basic-addon1">N</span>
+          </div>
+          <input
+            id="bai5Number"
+            type="number"
+            class="form-control"
+            placeholder="N"
+            aria-label="N"
+            aria-describedby="basic-addon1"
+          />
+        </div>
+        <button id="bai5Btn" class="btn btn-success">Đáp án</button>
+        <div id="bai5Txt"></div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets//js/bai1.js"></script>
+    <script src="./assets//js/bai2.js"></script>
+    <script src="./assets//js/bai3.js"></script>
+    <script src="./assets//js/bai4.js"></script>
+    <script src="./assets//js/bai5.js"></script>
+  </body>
+</html>
